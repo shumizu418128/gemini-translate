@@ -1,0 +1,115 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.api-key-input {
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.translate-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s;
+}
+
+.translate-button:hover {
+  background-color: #3367d6;
+}
+
+.translate-button:disabled {
+  background-color: #a9c3fa;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #d93025;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #fde7e9;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.output-container {
+  margin-top: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.output-text-container {
+  position: relative;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 15px;
+  min-height: 100px;
+}
+
+.output-text {
+  white-space: pre-wrap;
+  margin-right: 70px;
+}
+
+.copy-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #34a853;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+  background-color: #2d9047;
+}
