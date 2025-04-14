@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gemini-translator/static/css/main.25388c9b.css",
+    "main.js": "/gemini-translator/static/js/main.db7d83f6.js",
+    "static/js/453.8273020f.chunk.js": "/gemini-translator/static/js/453.8273020f.chunk.js",
+    "index.html": "/gemini-translator/index.html",
+    "main.25388c9b.css.map": "/gemini-translator/static/css/main.25388c9b.css.map",
+    "main.db7d83f6.js.map": "/gemini-translator/static/js/main.db7d83f6.js.map",
+    "453.8273020f.chunk.js.map": "/gemini-translator/static/js/453.8273020f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25388c9b.css",
+    "static/js/main.db7d83f6.js"
+  ]
+}
