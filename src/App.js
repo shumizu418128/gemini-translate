@@ -72,6 +72,8 @@ function App() {
           />
         </label>
       </div>
+      <button className="button" onClick={() => window.open('https://aistudio.google.com/apikey', '_blank', 'noopener,noreferrer')}>APIキーを取得</button>
+      <p>入力したAPIキーは、外部のサーバーには送信されず、このサイト内でのみ利用されます。</p>
 
       <div className="input-group">
         <label>
@@ -125,7 +127,7 @@ function App() {
       <button
         onClick={handleTranslate}
         disabled={isLoading}
-        className="translate-button"
+        className="button"
       >
         {isLoading ? '翻訳中...' : '翻訳する'}
       </button>
