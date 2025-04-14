@@ -9,7 +9,7 @@ function App() {
   const [targetLanguage, setTargetLanguage] = useState('日本語');  // 翻訳先言語
   const [geminiModel, setGeminiModel] = useState('gemini-2.0-flash-lite');  // 使用するモデル
   const [outputText, setOutputText] = useState('');  // 翻訳結果
-  const [isLoading, setIsLoading] = useState(false);  // ローディング状態
+  const [isLoading, setIsLoading] = useState(false);  // ローディング状態 (geminiのAPIを呼び出している間はtrue)
   const [error, setError] = useState(null);  // エラーメッセージ
 
   const handleTranslate = async () => {
