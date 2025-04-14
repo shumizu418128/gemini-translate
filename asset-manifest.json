@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gemini-translate/static/css/main.25388c9b.css",
-    "main.js": "/gemini-translate/static/js/main.ce82eac8.js",
+    "main.css": "/gemini-translate/static/css/main.36982638.css",
+    "main.js": "/gemini-translate/static/js/main.3ea11c70.js",
     "static/js/453.8273020f.chunk.js": "/gemini-translate/static/js/453.8273020f.chunk.js",
     "index.html": "/gemini-translate/index.html",
-    "main.25388c9b.css.map": "/gemini-translate/static/css/main.25388c9b.css.map",
-    "main.ce82eac8.js.map": "/gemini-translate/static/js/main.ce82eac8.js.map",
+    "main.36982638.css.map": "/gemini-translate/static/css/main.36982638.css.map",
+    "main.3ea11c70.js.map": "/gemini-translate/static/js/main.3ea11c70.js.map",
     "453.8273020f.chunk.js.map": "/gemini-translate/static/js/453.8273020f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25388c9b.css",
-    "static/js/main.ce82eac8.js"
+    "static/css/main.36982638.css",
+    "static/js/main.3ea11c70.js"
   ]
 }
